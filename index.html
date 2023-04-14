@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-Aia/URoQQJ0Dtb1XCNMIBjZv1/KmTwmTt+P8LxS0tzwf0tZ+4gEh2yz4s4sZUsIrQfhHDJl1q3SSqyvLdjZFA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -46,11 +49,12 @@
                         <div class="C">
                             <button class="D"><img src="./images/bike.svg"> &nbsp;Deliver</button>
                             <button class="E"><img src="./images/Pick.svg"> Pickup</button>
-                          </div>
+                        </div>
 
                           <div class="F">
-                            <span class="G"><img src="./images/loc.svg">
-                            <input type="text" placeholder="Enter Your Address"></span>
+                            <div class="input-container">
+                                <input class="inputf" type="text" placeholder=" Enter your Address">
+                              </div>
                             <button class="H"><img src="./images/SRC.svg"> Find Food</button>
                           </div>
                     </div>
@@ -68,25 +72,26 @@
         <div class="foods">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2 K">
+
+                    <div class="col-md-3">
                         <img class="img1" src="./images/Food Photo.svg">
                         <h6 class="cap1">Greys Vage</h6>
                         <button class="but1">6 Days Remaining</button>
                     </div>
 
-                    <div class="col-md-2 L">
+                    <div class="col">
                         <img class="img2" src="./images/Food Photo 1.svg">
                         <h6 class="cap2"><b>Greys Vage</b></h6>
                         <button class="but2">6 Days Remaining</button>
                     </div>
-
-                    <div class="col-md-1 M">
+                    
+                    <div class="col">
                         <img class="img3" src="./images/Food Photo 2.svg">
                         <h6 class="cap3"><b>Greys Vage</h6>
                         <button class="but3">8 Days Remaining</button>
                     </div>
 
-                    <div class="col-md-2 N">
+                    <div class="col">
                         <img class="img4" src="./images/Food Photo 4.svg">
                         <h6 class="cap4"><b>Greys Vage</b></h6>
                         <button class="but4">8 Days Remaining</button>
@@ -133,14 +138,14 @@
 
     <section>
         <div class="items">
-         <h4 class="item1">Popular items</h4>
-         <div class="container-fluid scroll">
+           <h4 class="item1">Popular items</h4>
+         <div class="container-fluid">
             <div class="row">
                 <div class="col">
                     <img class="arrowL" src="./images/Arrow Left.svg">
                 </div>
 
-                <div class="col itemp">
+                <div class="col BAJA1">
                     <img class="itemi1" src="./images/item1.svg">
                     <h6 class="capi1">Cheese Burger</h6>
                     <img class="capii11" src="./images/loc.svg">
@@ -149,7 +154,7 @@
                     <button class="capbtn1">Order now</button>
                 </div>
 
-                <div class="col">
+                <div class="COL BAJA2">
                     <img class="itemi2" src="./images/item2.svg">
                     <h6 class="capi2">Toffe’s Cake</h6>
                     <img class="capii12" src="./images/loc.svg">
@@ -158,7 +163,7 @@
                     <button class="capbtn2">Order now</button>
                 </div>
 
-                <div class="col">
+                <div class="col BAJA3">
                     <img class="itemi3" src="./images/item3.svg">
                     <h6 class="capi3">Dancake</h6>
                     <img class="capii13" src="./images/loc.svg">
@@ -167,7 +172,7 @@
                     <button class="capbtn3">Order now</button>
                 </div>
 
-                <div class="col">
+               <div class="col BAJA4">
                     <img class="itemi4" src="./images/item4.svg">
                     <h6 class="capi4">Crispy Sandwitch</h6>
                     <img class="capii14" src="./images/loc.svg">
@@ -177,7 +182,7 @@
                     
                 </div>
 
-                <div class="col">
+                <div class="col BAJA5">
                     <img class="itemi5" src="./images/itme5.svg">
                     <h6 class="capi5">Thai  Soup</h6>
                     <img class="capii15" src="./images/loc.svg">
@@ -204,13 +209,13 @@
                     <div class="col add">
                         <img  class="feati1" src="./images/Feat1.svg">
                         <img class="icon11" src="./images/icon11.svg">
-                        <h6 class="featcap1"> Foodworld</h6>
+                       <h6 class="featcap1"> Foodworld</h6>
                         <img class="star1" src="./images/star.svg">
                         <h6 class="featcont1">46</h6>
                         <button class="featbtn1">Opens tomorrow</button>
                     </div>
 
-                    <div class="col add">
+                   <div class="col add">
                         <img  class="feati2" src="./images/feat2.svg">
                         <img class="icon12" src="./images/icon12.svg">
                         <h6 class="featcap2"> Pizzahub</h6>
@@ -259,8 +264,8 @@
 
                     <div class="col add">
                         <img  class="feati7" src="./images/feat7.svg">
-                        <img class="icon17" src="./images/icon17.svg">
-                        <h6 class="featcap7"> Red Square</h6>
+                         <img class="icon17" src="./images/icon17.svg">
+                       <h6 class="featcap7"> Red Square</h6>
                         <img class="star3" src="./images/star.svg">
                         <h6 class="featcont7">45</h6>
                         <button class="featbtn7">Open Now</button>
@@ -276,7 +281,7 @@
                     </div>
                 </div>
             </div>
-            <button class="view">View All</button>
+            <button class="view">View ALL<img class="vs" src="./images/arrow white.svg"></button>
         </div>
     </section>
 
@@ -330,13 +335,214 @@
                             <img class="sf6" src="./images/sf6.svg">
                             <h6 class="sft6">Steak</h6>
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-</body>
+
+    <section>
+        <div class="alex">
+            <div class="container">
+                <div class="row">
+                    
+                   <div class="alexdiv1">
+
+                        <img src="./images/tag1.svg">
+                        <div class="alextxt">Daily <br>Discounts</div>
+                        <img class="hr1" src="./images/HR.svg">
+
+                        <img class="aleximg2" src="./images/tag2.svg">
+                        <div class="alextxt2">Live <br>Tracing</div>
+                        <img class="hr2" src="./images/HR.svg">
+
+                        <img class="aleximg3" src="./images/tag3.svg">
+                        <div class="alextxt3">Quick <br>Delivery</div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    
+    <section>
+    <img class="back" src="./images/App Download.svg">
+    </section>
+
+    <div class="Lastp1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="lastpmg1">
+                        <p class="message">Best deals <span class="name">Crispy Sandwiches </span></p>
+                        <p class="vagg">
+                            Enjoy the large size of sandwiches. Complete perfect slice of sandwiches.
+                        </p>
+                        <button class="eff">Proceed to order <img src="./images/arrow white.svg"></button>
+                    </div>
+                    <div class="col">
+                        <img class="imm" src="./images/last1.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Lastp2">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="col">
+                    <img class="imm2" src="./images/last2.svg">
+
+                    <div class="lastpmg2">
+                        <p class="message2">Celebrate  parties <span class="name2">with Fried Chicken </span></p>
+                        <p class="vagg2">
+                            Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out 
+                            best deals for fried chicken.</p>
+                        <button class="eff2">Proceed to order <img src="./images/arrow white.svg"></button>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Lastp1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="lastpmg3">
+                        <p class="message">Wanna eat hot & spicy <span class="name">Pizza? </span></p>
+                        <p class="vagg">
+                            Enjoy the large size of sandwiches. Complete perfect slice of sandwiches.
+                        </p>
+                        <button class="eff">Proceed to order <img src="./images/arrow white.svg"></button>
+                    </div>
+                    <div class="col">
+                        <img class="imm3" src="./images/last3.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+
+    <section>
+         <div class="container-fluid">
+            <div class="row">
+                    <div class="bann">
+                            <p class="banntxt"><b>Are you ready to order with</b></p>
+                            <p class="banntxt2"><b></b>the best deals?</b></p>
+                    </div>
+            </div>
+         </div>
+
+
+
+
+
+         <footer>
+            <div class="foot">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col colum1">
+                        <h6 class="col__1__heading">Our top cities</h6>
+                        <p class="p1">San Francisco</p>
+                        <p class="p1">Miami</p>
+                        <p class="p1">San Diego</p>
+                        <p class="p1">East Bay</p>
+                        <p class="p1">Long Beach</p>
+                        </div>
+
+                        <div class="col colum3">
+                            <p class="p1">San Francisco</p>
+                            <p class="p1">Miami</p>
+                            <p class="p1">San Diego</p>
+                            <p class="p1">East Bay</p>
+                            <p class="p1">Long Beach</p>
+                        </div>
+
+                        <div class="col colum3">
+                            <p class="p1">New York City</p>
+                            <p class="p1">Orange County</p>
+                            <p class="p1">Atlanta</p>
+                            <p class="p1">Charlotte</p>
+                            <p class="p1">Denver</p>
+                        </div>
+
+                        <div class="col colum3">
+                            <p class="p1">Chicago</p>
+                            <p class="p1">Phoenix</p>
+                            <p class="p1">Las Vegas</p>
+                            <p class="p1">Sacramento</p>
+                            <p class="p1">Oklahoma City</p>
+                        </div>
+
+
+                        <div class="col colum3">   
+                            <p class="p1">Columbus</p>
+                            <p class="p1">New Mexico</p>
+                            <p class="p1">Albuquerque</p>
+                            <p class="p1">Sacramento</p>
+                            <p class="p1">New Orleans</p>
+                        </div>
+                    </div> 
+                    <hr class="hr11"/>
+
+                    <div class="row">
+                        <div class="col colum6">
+                            <h6 class="col__6__heading">Company</h6>
+                            <p class="p1">About us</p>
+                            <p class="p1">Team</p>
+                            <p class="p1">Career</p>
+                            <p class="p1">Blog</p>
+                        </div>
+
+                        <div class="col colum7">
+                            <h6 class="col__6__heading">Contact</h6>
+                            <p class="p1">Help & Support</p>
+                            <p class="p1">Partner with us </p>
+                            <p class="p1">Ride with us</p>
+                        </div>
+
+
+                        <div class="col colum7">
+                            <h6 class="col__6__heading">Legal</h6>
+                            <p class="p1">Terms & Conditions</p>
+                            <p class="p1">Refund & Cancellation</p>
+                            <p class="p1">Privacy Policy</p>
+                            <p class="p1">Cookie Policy</p>
+                        </div>
+
+
+                        <div class="col colum8">
+                            <h6 class="col__8__heading">FOLLOW US</h6>
+                            <span>
+                              <img class="imgs" src="./images/1.svg" alt="instagram">  
+                              <img class="imgs" src="./images/2.svg" alt="facebook">  
+                              <img class="imgs" src="./images/3.svg" alt="twiter">  
+                              <p class="followp">Receive exclusive offers in your mailbox</p>
+                            </span>
+                            <input class="lastinput" type="text" placeholder=" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter  your email">
+                            <button class="buttl">Subscribe</button>
+                        </div>
+
+                    </div>
+                    <hr class="hr22"/>
+
+                    <div class="row">
+                        <div class="col-md-6 colum9">
+                           <p class="copy">All rights Reserved © Your Company, 2021</p>
+                        </div>
+
+                        <div class="col-md-6 colum10">
+                            <img class="coppy" src="./images/Made with  by.svg" alt="">
+                            <p class="copyw">Themewagon</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+         </footer>
+
 </html>
